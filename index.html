@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/img/lotus.ico" type="image/x-icon">
+    <title>Lista de Tarefas</title>
+</head>
+<body>
+    <main>
+        <img src="assets/img/bg-main.svg" alt="" title="" width="220px" style="margin: auto;">
+        <form>
+            <input list="sugestoes"  class="input-item" id="input-item" type="text" placeholder="Digite um tarefa...">
+            <button class="btn-salvarItem" id="btn-salvarItem">Salvar Item</button>
+
+            <datalist id="sugestoes">
+                <option value="Estudar">
+                <option value="Ler a biblia">
+                <option value="Fazer compras">
+                <option value="Ir a academia">
+                <option value="Revisar tarefas">
+                <option value="Finalizar o trabalho da faculdade">
+                <option value="Atualizar portifólio">
+            </datalist>
+        </form>
+        <div class="container-list">
+            <h2>Lista de Tarefas</h2>
+            <hr style="border: none; height: 2px; background-color: #F27E88; border-radius: 50px;">
+
+            <ul type="none" id="lista-tarefas">
+
+            </ul>
+            <p id="mensagem-lista-vazia">Lista de tarefas vazia...</p>
+        </div>
+    </main>
+    <script defer src="index.js"></script>
+</body>
+</html>
