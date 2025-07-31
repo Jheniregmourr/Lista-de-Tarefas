@@ -8,9 +8,8 @@ Este projeto é uma aplicação simples de Lista de Tarefas desenvolvida com HTM
 - Exibir mensagem de lista vazia quando não houver tarefas;
 - Marcar/desmarcar tarefas como concluídas (riscar texto);
 - Exibir data e hora da tarefa;
-
-📌 Próximas funcionalidades:
-
 - Editar tarefas;
 - Excluir tarefas;
+
+📌 Próximas funcionalidades:
 - Responsividade para mobile;
