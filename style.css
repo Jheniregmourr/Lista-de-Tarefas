@@ -66,7 +66,10 @@ form{
     margin-bottom: 55px;
     cursor: pointer;
 }
-li{
+.organizar-itens{
+    display: flex;
+}
+li, .conteiner-icons{
     margin-top: 20px;
 }
 li div{
@@ -84,4 +87,21 @@ li p.datas{
 #mensagem-lista-vazia{
     margin-top: 40px;
     text-align: center;
+}
+.conteiner-icons{
+    display: flex;
+    align-items: baseline;
+    text-align: end;
+    position: absolute;
+    right: 38%;
+}
+.conteiner-icons button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.conteiner-icons img{
+    padding: 0%;
+    width: 20px !important;
+    margin-left: 5px;
 }
